@@ -9,7 +9,7 @@ This repository includes MATLAB/Simulink base simulations of torque control stra
 # Getting Started
 Before running the torque control simulations
 
-- run "setCJTPaths.m" file which is inside the "Compliant Joint Toolbox" file.
-- Then run  "SEA_model.m" file which is located in "CompliantJointToolbox\examples\matlab"
+1) run "setCJTPaths.m" file which is inside the "Compliant Joint Toolbox" file.
+2) Then run  "SEA_model.m" file which is located in "CompliantJointToolbox\examples\matlab"
 
 After these steps you can run each simulation in simulink.
