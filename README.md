@@ -7,7 +7,7 @@ This repository includes MATLAB/Simulink base simulations of torque control stra
 | PDF file | Citation |
 | PDF file | Citation |
 
-# Getting Started
+# User Manual
 Before running the torque control simulations
 
 1) Download the Compliant Joint Toolbox from "https://github.com/geez0x1/CompliantJointToolbox".
