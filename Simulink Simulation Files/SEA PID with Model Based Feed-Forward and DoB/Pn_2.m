@@ -1,3 +1,5 @@
+%
+% Run this file first then run the Simulink file (SEA_Feedforward_DOB.slx)
 clc
 close
 
@@ -16,17 +18,16 @@ Pl = tf(1, [Jl (Bl + Benv) Kenv]);
 
 P = (Pm/N)/(1 + Ks*Pm/(N*N) + Ks*Pl);
 
-Wff = 628*2*pi;
-
-Q1 = tf(Wff, [1 Wff]);
-
-FF = inv(P)*Q1^2;
-
 Wc = 1600*2*pi;
+Wv = 600*2*pi;
+
+Q1 = tf(Wv^2, [1 sqrt(2)*Wv Wv^2]);
 
 Q2 = tf(Wc^2, [1 sqrt(2)*Wc Wc^2]);
 
 Dob = inv(P)*Q2;
+
+FF = inv(P)*Q1;
 
 [numFF,denFF] = tfdata(FF,'v');    % Feedforward
 [numDOB,denDOB] = tfdata(Dob,'v'); % DoB of Feedforward
