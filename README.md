@@ -12,8 +12,8 @@ If you don't have MATLAB installed, you can use the [Compute Capsule] that we pu
 Before running the torque control simulations
 
 1) Download the Compliant Joint Toolbox from "https://github.com/geez0x1/CompliantJointToolbox".
-2) Move "SEA_model.m" from "Simulink Files for Each Controller" file into "\CompliantJointToolbox\examples\matlab" location.
-3) Move "sea_param.m" from "Simulink Files for Each Controller" file into "\CompliantJointToolbox\param" location.
+2) Move "SEA_model.m" from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\examples\matlab" location.
+3) Move "sea_param.m" from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\param" location.
 4) run "setCJTPaths.m" file which is inside the "Compliant Joint Toolbox" file.
 5) Then run  "SEA_model.m" file which is located in "CompliantJointToolbox\examples\matlab".
 
