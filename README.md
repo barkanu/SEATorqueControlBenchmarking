@@ -18,3 +18,4 @@ Before running the torque control simulations
 5) Then run  "SEA_model.m" file which is located in "CompliantJointToolbox\examples\matlab".
 
 After these steps you can run each simulation in simulink.
+NOTE: Before running the PID with Model Based Feed-Forward and DoB controoler in simulink run the "Pn_2.m" file.
