@@ -6,7 +6,6 @@ If you don't have MATLAB installed, you can use the [Compute Capsule] that we pu
 | PDF </a> |  Citation </a>  |
 |--------|-----------|
 | - </a> | Malzahn, J., Roozing, W., & Tsagarakis, N. (2019). The Compliant Joint Toolbox for MATLAB: An Introduction with Examples. IEEE Robotics and Automation Magazine. https://doi.org/10.1109/MRA.2019.2896360|
-| <a href="https://github.com/erimcanozcinar/Torque-Control-Strategies-for-a-Torsion-based-Series-Elastic-Actuator/blob/main/Documents/ram20atk.pdf"><img src="https://openclipart.org/download/274097/1488162608.svg" alt="PDF-Article" width="50px"></a> | Citation |
 
 # User Manual
 Before running the torque control simulations
