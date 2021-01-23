@@ -18,4 +18,4 @@ Before running the torque control simulations
 
 After these steps you can run each simulation in simulink.
 
-NOTE: Before running the PID with Model Based Feed-Forward and DoB controoler in simulink run the "Pn_2.m" file.
+NOTE: Before running the PID with Model Based Feed-Forward and DoB controller in simulink, run the "Pn_2.m" file.
