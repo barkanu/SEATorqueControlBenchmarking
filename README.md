@@ -24,7 +24,7 @@ If you don't have MATLAB installed, you can use the [Compute Capsule](https://co
 # User Manual: Experiments
 For each controller, the following C files are provided in a respective folder. When experimentally implementing a controller, make sure that the following files are included in the same folder alongside with myrunner.m and makefile files. The respective role of these files are as follows:
 
-SEALibgen.c: This script includes the basic functions that are required to ensure the communication between the units illustrated in Fig. 8. It is same for all the controllers.
+SEALibgen.c: This script includes the basic functions that are required to ensure the communication between the encoders and the Raspi 3. It is same for all the controllers.
 SEALibgen.h: It is the header file of SEALibgen.c.
 SEALibex.c: This script includes the controller-specific functions that are necessary to implement the torque controller in question. The duration of the experiment can be set using thisscript.
 SEALibex.h: It is the header file of SEALibex.c.
