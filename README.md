@@ -2,6 +2,7 @@
 This repository includes all the necessary files to re-run the experiments and simulations presented in the following paper. 
 
 Ugurlu et al., "Benchmarking Torque Control Strategies for a Torsion based Series Elastic Actuator," Under Review
+Please see the supplementary file ram20atk_Supp.pdf, provided in "Documents" folder. 
 
 # User Manual: Simulations via Compliant Joint Toolbox
 Please follow these steps:
@@ -36,5 +37,7 @@ instructions:
 1) Please construct the elecronics hardware and make sure it is fully integrated to your series elastic actuator. 
 2) Place the libraries, necessary header and C files listed above are stored in a designated folder, alongside with the makefile file.
 3) The execution of the experiment is initiated via the MATLAB script named myrunner.m.
+
+All the necessary codes, hardware manuals and PCB files can be downloaded from the Experiment "Codes and Manuals" folder.
 
 In this repoitory, experimental study files were created by Ahmet Talha Kansizoglu and simulation files were created by Erim Can Ozcinar
