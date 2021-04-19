@@ -8,10 +8,12 @@ Please see the supplementary file ram20atk_Supp.pdf, provided in "Documents" fol
 Please follow these steps:
 
 1) Download the Compliant Joint Toolbox from "https://github.com/geez0x1/CompliantJointToolbox".
-2) Move "SEA_model.m" from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\examples\matlab" location.
-3) Move "sea_param.m" from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\param" location.
-4) run "setCJTPaths.m" file which is inside the "Compliant Joint Toolbox" file.
-5) Then run  "SEA_model.m" file which is located in "CompliantJointToolbox\examples\matlab".
+2) Move "sea.m" file from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\model\linear" location.
+3) Move "electric_dyn_2.m" file from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\model\electrical" location.
+4) Move "SEA_model.m" from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\examples\matlab" location.
+5) Move "sea_param.m" from "SEA Model for Compliant Joint Toolbox" file into "\CompliantJointToolbox\param" location.
+6) run "setCJTPaths.m" file which is inside the "Compliant Joint Toolbox" file.
+7) Then run  "SEA_model.m" file which is located in "CompliantJointToolbox\examples\matlab".
 
 After these steps you can run each simulation in simulink. Note that before running the PID with Model Based Feed-Forward and DoB controller in Simulink, run the "Pn_2.m" file.
 
