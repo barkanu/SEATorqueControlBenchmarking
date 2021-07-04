@@ -17,6 +17,9 @@ Please follow these steps:
 
 After these steps you can run each simulation in simulink. Note that before running the PID with Model Based Feed-Forward and DoB controller in Simulink, run the "Pn_2.m" file.
 
+You may refer to the following YouTube video in which Erim clearly demonstrated all these steps:
+https://youtu.be/Ok39-MSXmeU
+
 Compliant Joint Toolbox can be found as below.
 | PDF </a> |  Citation </a>  |
 |--------|-----------|
